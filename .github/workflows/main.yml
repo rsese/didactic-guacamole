@@ -35,6 +35,6 @@ jobs:
         run: |
           echo github.workspace: ${{ github.workspace }}
       - name: workspace container-ception
-        uses: rsese/test-actions-docker-container
+        uses: rsese/test-actions-docker-container@master
         with:
           who-to-greet: ryan-gosling
